@@ -1,0 +1,49 @@
+/* Reset some default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a basic layout */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Search styles */
+  .Search {
+    padding: 20px;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar {
+      padding: 10px 5px;
+    }
+  
+    /* Search adjustments */
+    .Search {
+      padding: 10px;
+    }
+  }
+  
+  /* Adjustments for even smaller screens */
+  @media (max-width: 576px) {
+    /* Navbar adjustments */
+    .navbar {
+      padding: 10px 2px;
+    }
+  
+    /* Search adjustments */
+    .Search {
+      padding: 5px;
+    }
+  }
+  
